@@ -1,0 +1,11 @@
+    BT.insert(10);
+    BT.insert(14);
+    BT.insert(13);
+    BT.insert(16);
+    BT.insert(15);
+    BT.insert(8);
+    BT.insert(9);
+    BT.insert(5);
+    BT.insert(7);
+    BT.insert(3);
+    BT.insert(6);
