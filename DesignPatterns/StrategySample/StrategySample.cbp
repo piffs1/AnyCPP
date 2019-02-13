@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="StrategySample" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/StrategySample" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="Ducks" />
+					<Add directory="include/Ducks" />
+					<Add directory="include/Fly" />
+					<Add directory="include/Quack" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/StrategySample" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="Ducks" />
+					<Add directory="include/Ducks" />
+					<Add directory="include/Fly" />
+					<Add directory="include/Quack" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Ducks/BaseDuck.h" />
+		<Unit filename="include/Ducks/ExoticDuck.h" />
+		<Unit filename="include/Ducks/SimpleDuck.h" />
+		<Unit filename="include/Ducks/WoodenDuck.h" />
+		<Unit filename="include/Fly/FlyWithWings.h" />
+		<Unit filename="include/Fly/IFlyable.h" />
+		<Unit filename="include/Fly/NoFly.h" />
+		<Unit filename="include/Quack/ExoticQuack.h" />
+		<Unit filename="include/Quack/IQuackable.h" />
+		<Unit filename="include/Quack/NoQuack.h" />
+		<Unit filename="include/Quack/SimpleQuack.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Ducks/BaseDuck.cpp" />
+		<Unit filename="src/Ducks/ExoticDuck.cpp" />
+		<Unit filename="src/Ducks/SimpleDuck.cpp" />
+		<Unit filename="src/Ducks/WoodenDuck.cpp" />
+		<Unit filename="src/Fly/FlyWithWings.cpp" />
+		<Unit filename="src/Fly/IFlyable.cpp" />
+		<Unit filename="src/Fly/NoFly.cpp" />
+		<Unit filename="src/Quack/ExoticQuack.cpp" />
+		<Unit filename="src/Quack/IQuackable.cpp" />
+		<Unit filename="src/Quack/NoQuack.cpp" />
+		<Unit filename="src/Quack/SimpleQuack.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

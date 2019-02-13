@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1550081808 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\singletonstrategy\main.cpp
+	<iostream>
+	"Singleton.h"
+
+1550081627 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\singletonstrategy\include\singleton.h
+	<iostream>
+
+1550081361 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\singletonstrategy\src\singleton.cpp
+	"Singleton.h"
+
+1550081883 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\singletonsample\main.cpp
+	<iostream>
+	"Singleton.h"
+
+1550081627 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\singletonsample\include\singleton.h
+	<iostream>
+
+1550081361 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\singletonsample\src\singleton.cpp
+	"Singleton.h"
+

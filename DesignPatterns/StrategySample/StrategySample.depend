@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1550069465 source:c:\users\krasavchik\desktop\hello\strategysample\main.cpp
+	<iostream>
+	"ExoticDuck.h"
+	"SimpleDuck.h"
+	"WoodenDuck.h"
+
+1550067058 source:c:\users\krasavchik\desktop\hello\strategysample\ducks\exoticduck.cpp
+	"ExoticDuck.h"
+
+1550067058 c:\users\krasavchik\desktop\hello\strategysample\ducks\exoticduck.h
+
+1550069354 source:c:\users\krasavchik\desktop\hello\strategysample\src\ducks\exoticduck.cpp
+	"ExoticDuck.h"
+
+1550068730 c:\users\krasavchik\desktop\hello\strategysample\include\ducks\exoticduck.h
+	"BaseDuck.h"
+
+1550069550 c:\users\krasavchik\desktop\hello\strategysample\include\ducks\baseduck.h
+	<iostream>
+	"IFlyable.h"
+	"IQuackable.h"
+	"FlyWithWings.h"
+	"ExoticQuack.h"
+	"NoQuack.h"
+	"NoFly.h"
+	"SimpleQuack.h"
+
+1550069445 source:c:\users\krasavchik\desktop\hello\strategysample\src\ducks\simpleduck.cpp
+	"SimpleDuck.h"
+
+1550068589 c:\users\krasavchik\desktop\hello\strategysample\include\ducks\simpleduck.h
+	"BaseDuck.h"
+
+1550069445 source:c:\users\krasavchik\desktop\hello\strategysample\src\ducks\woodenduck.cpp
+	"WoodenDuck.h"
+
+1550068663 c:\users\krasavchik\desktop\hello\strategysample\include\ducks\woodenduck.h
+	"BaseDuck.h"
+
+1550067365 source:c:\users\krasavchik\desktop\hello\strategysample\src\fly\iflyable.cpp
+	"IFlyable.h"
+
+1550068903 c:\users\krasavchik\desktop\hello\strategysample\include\fly\iflyable.h
+	<iostream>
+
+1550067453 source:c:\users\krasavchik\desktop\hello\strategysample\src\quack\iquackable.cpp
+	"IQuackable.h"
+
+1550068902 c:\users\krasavchik\desktop\hello\strategysample\include\quack\iquackable.h
+	<iostream>
+
+1550069354 source:c:\users\krasavchik\desktop\hello\strategysample\src\ducks\baseduck.cpp
+	"BaseDuck.h"
+
+1550067771 source:c:\users\krasavchik\desktop\hello\strategysample\src\fly\flywithwings.cpp
+	"FlyWithWings.h"
+
+1550069520 c:\users\krasavchik\desktop\hello\strategysample\include\fly\flywithwings.h
+	"IFlyable.h"
+
+1550067827 source:c:\users\krasavchik\desktop\hello\strategysample\src\fly\nofly.cpp
+	"NoFly.h"
+
+1550069515 c:\users\krasavchik\desktop\hello\strategysample\include\fly\nofly.h
+	"IFlyable.h"
+
+1550067915 source:c:\users\krasavchik\desktop\hello\strategysample\src\quack\exoticquack.cpp
+	"ExoticQuack.h"
+
+1550068174 c:\users\krasavchik\desktop\hello\strategysample\include\quack\exoticquack.h
+	"IQuackable.h"
+
+1550068007 source:c:\users\krasavchik\desktop\hello\strategysample\src\quack\noquack.cpp
+	"NoQuack.h"
+
+1550068903 c:\users\krasavchik\desktop\hello\strategysample\include\quack\noquack.h
+	"IQuackable.h"
+
+1550068090 source:c:\users\krasavchik\desktop\hello\strategysample\src\quack\simplequack.cpp
+	"SimpleQuack.h"
+
+1550068174 c:\users\krasavchik\desktop\hello\strategysample\include\quack\simplequack.h
+	"IQuackable.h"
+
