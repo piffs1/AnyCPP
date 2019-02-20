@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DecoratorSample" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DecoratorSample" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include/Beverage" />
+					<Add directory="include/Decorators" />
+					<Add directory="include/Decorators/Test" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DecoratorSample" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include/Beverage" />
+					<Add directory="include/Decorators" />
+					<Add directory="include/Decorators/Test" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/AllCondiments.h" />
+		<Unit filename="include/Beverage/BeverageBase.h" />
+		<Unit filename="include/Beverage/BlackTea.h" />
+		<Unit filename="include/Beverage/Capuccino.h" />
+		<Unit filename="include/Beverage/Espresso.h" />
+		<Unit filename="include/Beverage/GreenTea.h" />
+		<Unit filename="include/Beverage/HotChocolate.h" />
+		<Unit filename="include/Decorators/ChocolateCondiment.h" />
+		<Unit filename="include/Decorators/CondimentsDecoratorBase.h" />
+		<Unit filename="include/Decorators/MilkCondiment.h" />
+		<Unit filename="include/Decorators/SugarCondiment.h" />
+		<Unit filename="include/Decorators/Test/LargePortion.h" />
+		<Unit filename="include/Decorators/Test/MediumPortion.h" />
+		<Unit filename="include/Decorators/Test/PortionsDecoratorBase.h" />
+		<Unit filename="include/Decorators/Test/SmallPortion.h" />
+		<Unit filename="include/allDrinks.h" />
+		<Unit filename="include/allPortions.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Beverage/BeverageBase.cpp" />
+		<Unit filename="src/Beverage/BlackTea.cpp" />
+		<Unit filename="src/Beverage/Capuccino.cpp" />
+		<Unit filename="src/Beverage/Espresso.cpp" />
+		<Unit filename="src/Beverage/GreenTea.cpp" />
+		<Unit filename="src/Beverage/HotChocolate.cpp" />
+		<Unit filename="src/Decorators/ChocolateCondiment.cpp" />
+		<Unit filename="src/Decorators/CondimentsDecoratorBase.cpp" />
+		<Unit filename="src/Decorators/MilkCondiment.cpp" />
+		<Unit filename="src/Decorators/SugarCondiment.cpp" />
+		<Unit filename="src/Decorators/Test/LargePortion.cpp" />
+		<Unit filename="src/Decorators/Test/MediumPortion.cpp" />
+		<Unit filename="src/Decorators/Test/PortionsDecoratorBase.cpp" />
+		<Unit filename="src/Decorators/Test/SmallPortion.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

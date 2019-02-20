@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1550659281 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\buildersample\main.cpp
+	<iostream>
+	<string>
+
+1550608368 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\buildersample\src\buildersample1.cpp
+	"BuilderSample1.h"
+
+1550614589 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\buildersample\include\buildersample1.h
+

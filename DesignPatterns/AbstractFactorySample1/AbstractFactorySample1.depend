@@ -1,0 +1,169 @@
+# depslib dependency file v1.0
+1550493234 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\main.cpp
+	<iostream>
+	"Hero.h"
+	"DragonFactory.h"
+	"WarriorFactory.h"
+
+1550489680 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\include\hero\hero.h
+	"HeroFactory.h"
+	<iostream>
+
+1550487960 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\include\factories\herofactory.h
+	"Movement.h"
+	"Weapon.h"
+
+1550493195 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\include\movements\movement.h
+	<iostream>
+
+1550489431 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\include\weapons\weapon.h
+	<string>
+	<iostream>
+
+1550488440 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\include\factories\dragonfactory.h
+	"HeroFactory.h"
+	"FlyMovement.h"
+	"Fire.h"
+
+1550488480 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\include\movements\flymovement.h
+	"Movement.h"
+	<iostream>
+
+1550488500 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\include\weapons\fire.h
+	"Weapon.h"
+	<iostream>
+
+1550488458 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\include\factories\warriorfactory.h
+	"HeroFactory.h"
+	"RunMovement.h"
+	"Sword.h"
+
+1550488495 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\include\movements\runmovement.h
+	"Movement.h"
+	<iostream>
+
+1550487370 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\include\weapons\sword.h
+	"Weapon.h"
+	<iostream>
+
+1550489403 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\src\factories\dragonfactory.cpp
+	"DragonFactory.h"
+
+1550489403 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\src\factories\herofactory.cpp
+	"HeroFactory.h"
+
+1550489403 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\src\factories\warriorfactory.cpp
+	"WarriorFactory.h"
+
+1550489744 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\src\hero\hero.cpp
+	"Hero.h"
+
+1550489403 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\src\movements\flymovement.cpp
+	"FlyMovement.h"
+
+1550489403 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\src\movements\movement.cpp
+	"Movement.h"
+
+1550489403 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\src\movements\runmovement.cpp
+	"RunMovement.h"
+
+1550489403 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\src\weapons\arbalet.cpp
+	"Arbalet.h"
+
+1550487369 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\include\weapons\arbalet.h
+	"Weapon.h"
+	<iostream>
+
+1550489403 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\src\weapons\fire.cpp
+	"Fire.h"
+
+1550489403 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\src\weapons\sword.cpp
+	"Sword.h"
+
+1550489403 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\factorysample\src\weapons\weapon.cpp
+	"Weapon.h"
+
+1550493234 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\main.cpp
+	<iostream>
+	"Hero.h"
+	"DragonFactory.h"
+	"WarriorFactory.h"
+
+1550489680 c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\include\hero\hero.h
+	"HeroFactory.h"
+	<iostream>
+
+1550487960 c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\include\factories\herofactory.h
+	"Movement.h"
+	"Weapon.h"
+
+1550493195 c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\include\movements\movement.h
+	<iostream>
+
+1550489431 c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\include\weapons\weapon.h
+	<string>
+	<iostream>
+
+1550488440 c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\include\factories\dragonfactory.h
+	"HeroFactory.h"
+	"FlyMovement.h"
+	"Fire.h"
+
+1550488480 c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\include\movements\flymovement.h
+	"Movement.h"
+	<iostream>
+
+1550488500 c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\include\weapons\fire.h
+	"Weapon.h"
+	<iostream>
+
+1550488458 c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\include\factories\warriorfactory.h
+	"HeroFactory.h"
+	"RunMovement.h"
+	"Sword.h"
+
+1550488495 c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\include\movements\runmovement.h
+	"Movement.h"
+	<iostream>
+
+1550487370 c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\include\weapons\sword.h
+	"Weapon.h"
+	<iostream>
+
+1550489403 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\src\factories\dragonfactory.cpp
+	"DragonFactory.h"
+
+1550489403 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\src\factories\herofactory.cpp
+	"HeroFactory.h"
+
+1550489403 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\src\factories\warriorfactory.cpp
+	"WarriorFactory.h"
+
+1550489744 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\src\hero\hero.cpp
+	"Hero.h"
+
+1550489403 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\src\movements\flymovement.cpp
+	"FlyMovement.h"
+
+1550489403 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\src\movements\movement.cpp
+	"Movement.h"
+
+1550489403 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\src\movements\runmovement.cpp
+	"RunMovement.h"
+
+1550489403 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\src\weapons\arbalet.cpp
+	"Arbalet.h"
+
+1550487369 c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\include\weapons\arbalet.h
+	"Weapon.h"
+	<iostream>
+
+1550489403 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\src\weapons\fire.cpp
+	"Fire.h"
+
+1550489403 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\src\weapons\sword.cpp
+	"Sword.h"
+
+1550489403 source:c:\users\stud\desktop\stud\Программирование\forgithub\designpatterns\abstractfactorysample1\src\weapons\weapon.cpp
+	"Weapon.h"
+

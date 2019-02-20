@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1550403878 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\main.cpp
+	<iostream>
+	"include/allDrinks.h"
+	"include/allCondiments.h"
+	"include/allPortions.h"
+
+1550405727 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\beverage\beveragebase.cpp
+	"BeverageBase.h"
+
+1550405882 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\beverage\beveragebase.h
+	<string>
+	<iostream>
+
+1550405766 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\beverage\blacktea.cpp
+	"BlackTea.h"
+
+1550405882 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\beverage\blacktea.h
+	"BeverageBase.h"
+
+1550402794 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\beverage\capuccino.cpp
+	"Capuccino.h"
+
+1550325208 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\beverage\capuccino.h
+	"BeverageBase.h"
+
+1550402794 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\beverage\espresso.cpp
+	"Espresso.h"
+
+1550325835 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\beverage\espresso.h
+	"BeverageBase.h"
+
+1550402794 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\beverage\hotchocolate.cpp
+	"HotChocolate.h"
+
+1550326429 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\beverage\hotchocolate.h
+	"BeverageBase.h"
+
+1550331744 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\decorators\condimentsdecoratorbase.cpp
+	"CondimentsDecoratorBase.h"
+
+1550402668 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\decorators\condimentsdecoratorbase.h
+	"BeverageBase.h"
+
+1550404426 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\decorators\chocolatecondiment.cpp
+	"ChocolateCondiment.h"
+
+1550402247 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\decorators\chocolatecondiment.h
+	"CondimentsDecoratorBase.h"
+
+1550338886 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\decorators\milkcondiment.cpp
+	"MilkCondiment.h"
+
+1550338943 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\decorators\milkcondiment.h
+	"CondimentsDecoratorBase.h"
+
+1550338915 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\decorators\sugarcondiment.cpp
+	"SugarCondiment.h"
+
+1550338943 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\decorators\sugarcondiment.h
+	"CondimentsDecoratorBase.h"
+
+1550402794 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\beverage\greentea.cpp
+	"GreenTea.h"
+
+1550328961 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\beverage\greentea.h
+	"BeverageBase.h"
+
+1550329447 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\alldrinks.h
+	"BlackTea.h"
+	"GreenTea.h"
+	"Capuccino.h"
+	"Espresso.h"
+	"HotChocolate.h"
+
+1550329586 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\allcondiments.h
+	"ChocolateCondiment.h"
+	"MilkCondiment.h"
+	"SugarCondiment.h"
+
+1550338852 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\decorators\test\largeportion.cpp
+	"LargePortion.h"
+
+1550338943 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\decorators\test\largeportion.h
+	"PortionsDecoratorBase.h"
+
+1550332375 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\decorators\test\portionsdecoratorbase.cpp
+	"PortionsDecoratorBase.h"
+
+1550333683 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\decorators\test\portionsdecoratorbase.h
+	"BeverageBase.h"
+
+1550340333 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\decorators\test\smallportion.cpp
+	"SmallPortion.h"
+
+1550340510 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\decorators\test\smallportion.h
+	"PortionsDecoratorBase.h"
+
+1550338859 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\src\decorators\test\mediumportion.cpp
+	"MediumPortion.h"
+
+1550338943 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\decorators\test\mediumportion.h
+	"PortionsDecoratorBase.h"
+
+1550333002 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\decoratorsample\include\allportions.h
+	"SmallPortion.h"
+	"MediumPortion.h"
+	"LargePortion.h"
+

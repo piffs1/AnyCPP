@@ -1,0 +1,3 @@
+В AdapterSample - 2 примера применения.
+Первый общий AdapterSample.h
+Второй наглядный AdapterCatGodSample.h

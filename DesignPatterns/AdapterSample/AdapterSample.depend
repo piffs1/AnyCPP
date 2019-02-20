@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1550572285 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\adaptersample\main.cpp
+	<iostream>
+	"AdapterSample.h"
+	"AdapterCatGodSample.h"
+
+1550570123 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\adaptersample\src\adaptersample1.cpp
+	"AdapterSample1.h"
+
+1550570123 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\adaptersample\include\adaptersample1.h
+
+1550570332 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\adaptersample\src\adaptersample.cpp
+	"AdapterSample.h"
+
+1550572414 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\adaptersample\include\adaptersample.h
+	<iostream>
+
+1550571568 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\adaptersample\src\adaptercatgodsample.cpp
+	"AdapterCatGodSample.h"
+
+1550572373 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\adaptersample\include\adaptercatgodsample.h
+	<iostream>
+

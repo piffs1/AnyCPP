@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1550583826 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\main.cpp
+	<iostream>
+	"AllShapes.h"
+	"AllColors.h"
+
+1550583158 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\src\color\color.cpp
+	"Color.h"
+
+1550583402 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\color\color.h
+	<iostream>
+
+1550583158 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\src\shape\rectangleshape.cpp
+	"RectangleShape.h"
+
+1550582572 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\shape\rectangleshape.h
+	"Shape.h"
+
+1550583243 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\src\shape\shape.cpp
+	"Shape.h"
+
+1550581971 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\shape\shape.h
+	"Color.h"
+
+1550583158 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\src\color\redcolor.cpp
+	"RedColor.h"
+
+1550580699 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\color\redcolor.h
+	"Color.h"
+
+1550583158 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\src\color\whitecolor.cpp
+	"WhiteColor.h"
+
+1550579306 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\color\whitecolor.h
+	"Color.h"
+
+1550583158 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\src\color\greencolor.cpp
+	"GreenColor.h"
+
+1550579410 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\color\greencolor.h
+	"Color.h"
+
+1550583158 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\src\shape\squareshape.cpp
+	"SquareShape.h"
+
+1550579852 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\shape\squareshape.h
+	"Shape.h"
+
+1550583158 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\src\color\yellowcolor.cpp
+	"YellowColor.h"
+
+1550579962 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\color\yellowcolor.h
+	"Color.h"
+
+1550583158 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\src\shape\circleshape.cpp
+	"CircleShape.h"
+
+1550582387 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\shape\circleshape.h
+	"Shape.h"
+
+1550583421 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\src\color\owncolor.cpp
+	"OwnColor.h"
+
+1550583057 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\color\owncolor.h
+	"Color.h"
+
+1550582144 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\shape\allshapes.h
+	"CircleShape.h"
+	"RectangleShape.h"
+	"SquareShape.h"
+
+1550582146 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\bridgesample\include\color\allcolors.h
+	"GreenColor.h"
+	"OwnColor.h"
+	"RedColor.h"
+	"WhiteColor.h"
+	"YellowColor.h"
+
