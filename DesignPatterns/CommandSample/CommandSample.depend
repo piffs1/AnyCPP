@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1551175814 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\main.cpp
+	<iostream>
+	<vector>
+	"RemoteControl.h"
+
+1551016527 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\commands\icommand.cpp
+	"ICommand.h"
+
+1551011925 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\commands\icommand.h
+	<iostream>
+
+1551016725 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\commands\lightscommand.cpp
+	"LightsCommand.h"
+
+1551011631 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\commands\lightscommand.h
+	"ICommand.h"
+	"Light.h"
+	<stack>
+
+1551016744 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\commands\musiccommand.cpp
+	"MusicCommand.h"
+
+1551012058 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\commands\musiccommand.h
+	"ICommand.h"
+	"Music.h"
+
+1551016744 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\commands\tvcommand.cpp
+	"TvCommand.h"
+
+1551012107 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\commands\tvcommand.h
+	"ICommand.h"
+	"TV.h"
+
+1551016617 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\remotecontrol.cpp
+	"RemoteControl.h"
+
+1551015349 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\remotecontrol.h
+	<map>
+	"ICommand.h"
+	"LightsCommand.h"
+	"MusicCommand.h"
+	"TvCommand.h"
+	"ChainikCommand.h"
+	"MacroCommand.h"
+
+1551017068 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\commands\chainikcommand.cpp
+	"ChainikCommand.h"
+
+1551012058 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\commands\chainikcommand.h
+	"ICommand.h"
+	"Chainik.h"
+
+1551016617 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\controlledsystems\light.cpp
+	"Light.h"
+
+1551012704 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\controlledsystems\light.h
+	<iostream>
+
+1551016617 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\controlledsystems\music.cpp
+	"Music.h"
+
+1551011382 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\controlledsystems\music.h
+	"CSBase.h"
+
+1551011344 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\controlledsystems\chainik.h
+	"CSBase.h"
+
+1551017110 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\controlledsystems\chainik.cpp
+	"Chainik.h"
+
+1551016617 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\controlledsystems\tv.cpp
+	"TV.h"
+
+1551011382 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\controlledsystems\tv.h
+	"CSBase.h"
+
+1551011525 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\controlledsystems\csbase.h
+	<iostream>
+
+1551010992 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\controlledsystems\csbase.cpp
+	"CSBase.h"
+
+1551176032 source:c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\src\commands\macrocommand.cpp
+	"MacroCommand.h"
+
+1551175676 c:\users\krasavchik\desktop\ЗащитаОтГихтаба\commandsample\include\commands\macrocommand.h
+	<iostream>
+	<list>
+	<vector>
+	"ICommand.h"
+	"MusicCommand.h"
+
