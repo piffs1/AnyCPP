@@ -10,11 +10,11 @@ int main()
     pChar1 = "Some";
     char *const pChar2  ="Boriska the Cat";
     /// pChar2 is const pointer at char
-    /// читаем справа налево,
-    /// проводим черту через указатель
+    /// С‡РёС‚Р°РµРј СЃРїСЂР°РІР° РЅР°Р»РµРІРѕ,
+    /// РїСЂРѕРІРѕРґРёРј С‡РµСЂС‚Сѓ С‡РµСЂРµР· СѓРєР°Р·Р°С‚РµР»СЊ
     /// char | pChar2 const
-    /// ‚се что слева - тип даннных (const pointer)
-    /// ‚се что справа тип указателЯ (char)
+    /// Р’СЃРµ С‡С‚Рѕ СЃР»РµРІР° - С‚РёРї РґР°РЅРЅРЅС‹С… (const pointer)
+    /// Р’СЃРµ С‡С‚Рѕ СЃРїСЂР°РІР° С‚РёРї СѓРєР°Р·Р°С‚РµР»СЏ (char)
     pChar2[0] = 'W';
     /// pChar2 = "BBBB"; /// ERROR
     const char *const pChar3  = "Boriska krutoi cat";
@@ -27,7 +27,7 @@ int main()
     int *const arr1 = new int[5];
     arr1[0] = 2; /// ok
     /// arr1 = nullptr; /// error
-    /// const pointer at int. “казатель не изменим, интуху изменим
+    /// const pointer at int. РЈРєР°Р·Р°С‚РµР»СЊ РЅРµ РёР·РјРµРЅРёРј, РёРЅС‚СѓС…Сѓ РёР·РјРµРЅРёРј
     const int arr2[10] = {0};
 
     
