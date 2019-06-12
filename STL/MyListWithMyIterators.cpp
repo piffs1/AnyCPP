@@ -1,10 +1,13 @@
 #include <iostream>
+#include <cassert>
 
+#define BEGIN_NAMESPACE(VALUE) VALUE {
+#define END_NAMESPACE } /// Это просто шалости
 /// sample from book Arthur O’Dwyer
 
 using namespace std;
 
-namespace STL_BOOK {
+namespace BEGIN_NAMESPACE(STL_BOOK)
 
 struct list_node
 {
@@ -30,7 +33,7 @@ public:
     using iterator_category = forward_iterator_tag;
 
     reference operator*() const {return pNode->data; }
-    auto& operator++() { pNode = pNode->next; return *this; }
+    auto& operator++() { pNode = pNode->next; return *this; } /// in this example auto is list_of_ints_iterator
     auto operator++(int) { auto result = *this; ++*this; return result; }
 
     template<bool R>
@@ -81,7 +84,45 @@ public:
 
 };
 
+
+
+template<typename Iterator, typename Predicate>
+auto count_if(Iterator begin, Iterator end, Predicate pred)
+{
+    using Traits = iterator_traits<Iterator>;
+    auto sum = typename Traits::difference_type{};
+    for (auto it = begin; it != end; ++it) {
+        if (pred(*it)) {
+            ++sum;
+        }
+    }
+    return sum;
 }
+/*
+template<typename Iterator>
+auto distance(Iterator begin, Iterator end)
+{
+    using Traits = iterator_traits<Iterator>;
+    if constexpr
+    (
+        is_base_of<random_access_iterator_tag,
+        typename Traits::iterator_category>
+    )
+    {
+        return (end - begin);
+    }
+    else
+    {
+        auto result = typename Traits::difference_type{};
+        for (auto it = begin; it != end; ++it) {
+            ++result;
+        }
+        return result;
+    }
+}
+*/
+
+END_NAMESPACE
 
 int main()
 {
@@ -92,15 +133,22 @@ int main()
     lstnMy.push_back(3);
     lstnMy.push_back(4);
 
-    for (auto it = lstnMy.begin(); it != lstnMy.end(); ++it) {
-        *it = 5;
-        cout << *it << endl;
-    }
-
     for (auto it = lstnMy.cbegin(); it != lstnMy.cend(); ++it) {
         cout << *it << endl;
     }
 
+    int nCountIfTest = STL_BOOK::count_if(lstnMy.cbegin(), lstnMy.cend(),[](int a_value){
+        return a_value >= 2;
+    });
+    assert(nCountIfTest == 3);
+
+    //int nDistanceTest = STL_BOOK::distance(lstnMy.cbegin(), lstnMy.cend());
+    //assert(nDistanceTest == 4);
+
+    for (auto it = lstnMy.begin(); it != lstnMy.end(); ++it) {
+        *it = 5;
+        cout << *it << endl;
+    }
 
     return 0;
 }
