@@ -1,6 +1,6 @@
-/*
-*   Не написаны функции equal и mismatch. Разобраться с equal_to<>{}.
-*   Arthur O’Dwyer. Осваиваем C++17. Страница 50.
+п»ї/*
+*   РќРµ РЅР°РїРёСЃР°РЅС‹ С„СѓРЅРєС†РёРё equal Рё mismatch. Р Р°Р·РѕР±СЂР°С‚СЊСЃСЏ СЃ equal_to<>{}.
+*   РљРЅРёРіР° Arthur OвЂ™Dwyer. РћСЃРІР°РёРІР°РµРј C++17. РЎС‚СЂР°РЅРёС†Р° 50.
 */
 #include <algorithm>
 #include <vector>
@@ -25,7 +25,7 @@ int main()
        return true;
     }) << endl; /// true
 
-    /// mismatch возвращает первую пару итераторов, в которых было найдено несоответствие
+    /// mismatch РІРѕР·РІСЂР°С‰Р°РµС‚ РїРµСЂРІСѓСЋ РїР°СЂСѓ РёС‚РµСЂР°С‚РѕСЂРѕРІ, РІ РєРѕС‚РѕСЂС‹С… Р±С‹Р»Рѕ РЅР°Р№РґРµРЅРѕ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ
 
     cout << *mismatch(vFirst.begin(),vFirst.end(), vSecond.begin()).first; /// 7
     cout << *mismatch(vFirst.begin(),vFirst.end(), vSecond.begin()).second; /// 8
