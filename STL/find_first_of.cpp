@@ -14,6 +14,16 @@ It find_first_of(It first, It last, FwdIt targetFirst, FwdIt targetLast)
         });
     });
 }
+template<class It, class FwdIt, class BinaryPredicate>
+It find_first_of(It first, It last, FwdIt targetFirst, FwdIt targetLast, BinaryPredicate pred)
+{
+    return find_if(first, last, [&](auto &&ebat) {
+        return any_of(targetFirst, targetLast, [&](auto &&kopat) {
+            return pred(ebat,kopat);
+        });
+    });
+}
+
 }
 
 int main()
@@ -33,6 +43,18 @@ int main()
     }
     else {
         cout << "Элемент " << *it << " найден в vLocal1 на позиции " << distance(vLocal1.begin(), it) << endl;
+    }
+
+    auto it1 = find_first_of(vLocal1.begin(), vLocal1.end(), vLocal2.begin(), vLocal2.end(), [](int first,int second)
+    {
+        return first == second;
+    });
+
+    if (it1 == vLocal1.end()) {
+        cout << "Значения vLocal2 не совпадают ни с одним значением vLocal1" << endl;
+    }
+    else {
+        cout << "Элемент " << *it1 << " найден в vLocal1 на позиции " << distance(vLocal1.begin(), it1) << endl;
     }
 
     return 0;
