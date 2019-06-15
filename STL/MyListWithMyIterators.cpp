@@ -1,9 +1,9 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <cassert>
 
 #define BEGIN_NAMESPACE(VALUE) VALUE {
-#define END_NAMESPACE } /// Это просто шалости
-/// sample from book Arthur O’Dwyer
+#define END_NAMESPACE } /// Р­С‚Рѕ РїСЂРѕСЃС‚Рѕ С€Р°Р»РѕСЃС‚Рё
+/// sample from book Arthur OвЂ™Dwyer
 
 using namespace std;
 

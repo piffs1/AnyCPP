@@ -1,4 +1,4 @@
-#include <algorithm>
+п»ї#include <algorithm>
 #include <cassert>
 #include <functional>
 #include <iostream>
@@ -20,7 +20,7 @@ int count_if(Iterator begin, Iterator end, Predicate pred)
     }
     return nCount;
 }
-/// count(Iter,Iter,value) похожа, но ищет по значению, а не предикату
+/// count(Iter,Iter,value) РїРѕС…РѕР¶Р°, РЅРѕ РёС‰РµС‚ РїРѕ Р·РЅР°С‡РµРЅРёСЋ, Р° РЅРµ РїСЂРµРґРёРєР°С‚Сѓ
 }
 
 int main()

@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <set>
 #include <cassert>
 #include <algorithm>
@@ -12,8 +12,8 @@ Iterator find_if(Iterator first, Iterator last, Predicate pred)
     for(; first != last; ++first) {
         if(pred(*first)) {
             return first;
-            /// Вычисления по короткой схеме.
-            /// Как только найдет первое, сразу же возвращает.
+            /// Р’С‹С‡РёСЃР»РµРЅРёСЏ РїРѕ РєРѕСЂРѕС‚РєРѕР№ СЃС…РµРјРµ.
+            /// РљР°Рє С‚РѕР»СЊРєРѕ РЅР°Р№РґРµС‚ РїРµСЂРІРѕРµ, СЃСЂР°Р·Сѓ Р¶Рµ РІРѕР·РІСЂР°С‰Р°РµС‚.
         }
     }
     return last;
@@ -27,7 +27,7 @@ int main()
 
     auto it = find(vLocal.begin(), vLocal.end(), 5);
     if (it != vLocal.end()) {
-        cout << "Первое вхождение : " << distance(vLocal.begin(), it) << endl; /// 4
+        cout << "РџРµСЂРІРѕРµ РІС…РѕР¶РґРµРЅРёРµ : " << distance(vLocal.begin(), it) << endl; /// 4
     }
 
     it = find_if(vLocal.begin(), vLocal.end(), [](int x){
@@ -35,7 +35,7 @@ int main()
     });
 
     if (it != vLocal.end()) {
-        cout << "Первое вхождение : " << distance(vLocal.begin(), it) << endl; /// 4
+        cout << "РџРµСЂРІРѕРµ РІС…РѕР¶РґРµРЅРёРµ : " << distance(vLocal.begin(), it) << endl; /// 4
     }
 
     it = find_if_not(vLocal.begin(), vLocal.end(), [](int x){
@@ -43,7 +43,7 @@ int main()
     });
 
     if (it != vLocal.end()) {
-        cout << "Первое вхождение : " << distance(vLocal.begin(), it) << ". Значение " << *it << endl; /// П.В. 0. З 1
+        cout << "РџРµСЂРІРѕРµ РІС…РѕР¶РґРµРЅРёРµ : " << distance(vLocal.begin(), it) << ". Р—РЅР°С‡РµРЅРёРµ " << *it << endl; /// Рџ.Р’. 0. Р— 1
     }
 
     return 0;
