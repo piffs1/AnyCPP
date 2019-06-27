@@ -6,5 +6,6 @@ equal(vFirst.begin(), vFirst.end(), vSecond.begin(), vSecond.end());
 конечный итератор вычисляется при помощи it2 + distance( it1e,it1b )
 std::set и std::map недружественны к кешу процессора.
 Лучше использовать std::unordered_set / std::unordered_map
+Старайтесь избегать контейнеры на основе указателей (map, list, set)
 Выделяет динамическую память, stable_sort, stable_partition 
 merge не выделяет дин память
