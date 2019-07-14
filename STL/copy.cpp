@@ -20,8 +20,9 @@ Iterator copy_if(Iterator first, Iterator last, Iterator result, Predicate pred)
 {
     while(first != last) {
         if (pred(*first)){
-            *result++ = *first++;
+            *result++ = *first;
         }
+        first++;
     }
     return result;
 }
