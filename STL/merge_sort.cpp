@@ -28,6 +28,27 @@ namespace STL_BOOK {
 			std::inplace_merge(first, mid, last); 
 		}
 	}
+void test_merge()
+{
+
+	vector<int> vNumber{ 9,1,3,3,3,3,5,7,8 };
+
+	vector<int> subvNumber1;
+	vector<int> subvNumber2;
+	for (int i = 0; i < vNumber.size() / 2; i++) {
+		subvNumber1.push_back(vNumber[i]);
+	}
+
+	for (int i = vNumber.size() / 2; i < vNumber.size(); i++) {
+		subvNumber2.push_back(vNumber[i]);
+	}
+
+	sort(subvNumber1.begin(), subvNumber1.end());
+	sort(subvNumber2.begin(), subvNumber2.end());
+
+	merge(subvNumber1.begin(), subvNumber1.end(), subvNumber2.begin(), subvNumber2.end(), vNumber.begin());
+
+}
 }
 
 using namespace std;
@@ -38,5 +59,6 @@ int main()
 {
 	vector<int> vLocal{ 9,8,7,6,5,4,3,2,1 };
 	STL_BOOK::Sort(vLocal.begin(), vLocal.end());
+	STL_BOOK::test_merge();
 	return 0;
 }
