@@ -6,6 +6,16 @@
 #include <iterator>
 
 
+/*
+
+	*(d_first)   = *first;
+	*(d_first+1) = *first + *(first+1);
+	*(d_first+2) = *first + *(first+1) + *(first+2);
+	*(d_first+3) = *first + *(first+1) + *(first+2) + *(first+3);
+
+
+*/
+
 namespace STL_BOOK {
 }
 using namespace std;
