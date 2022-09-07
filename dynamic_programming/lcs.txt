@@ -1,0 +1,59 @@
+#include <algorithm>
+#include <iostream>
+#include <vector>
+#include <string>
+// LCS - Naibolshaya Obshaya POdPosledovatelnost
+//https://site.ada.edu.az/~medv/acm/Docs%20e-olimp/Volume%2017/1618.htm
+
+using namespace std;
+
+const string str1 = "dfcaba";
+const string str2 = "fdccaa";
+
+//#define vector_mode
+
+#ifdef vector_mode
+vector<vector<int>> vvDp;
+#endif 
+
+#ifndef vector_mode
+int vvDp[100][100];
+#endif
+
+int main()
+{
+#ifdef vector_mode
+	vvDp.resize(str1.size() + 1);
+	for (int i = 0; i < vvDp.size(); i++) {
+		vvDp[i].resize(str2.size() + 1);
+	}
+ 
+	for (int i = 1; i < vvDp.size(); i++) {
+		for (int x = 1; x < vvDp[i].size(); x++) {
+			if (str1[i - 1] != str2[x - 1]) {
+				vvDp[i][x] = max(vvDp[i][x - 1], vvDp[i - 1][x]);
+			}
+			else {
+				vvDp[i][x] = vvDp[i - 1][x - 1] + 1;
+			}
+		}
+	}
+#endif
+#ifndef vector_mode
+	int M = str1.size() + 1;
+	int N = str2.size() + 1;
+	for (int i = 1; i < M; i++) {
+		for (int x = 1; x < N; x++) {
+			if (str1[i - 1] != str2[x - 1]) {
+				vvDp[i][x] = max(vvDp[i][x - 1], vvDp[i - 1][x]);
+			}
+			else {
+				vvDp[i][x] = vvDp[i - 1][x - 1] + 1;
+			}
+		}
+	}
+#endif
+	cout << "Lcs " << str1 << " and " << str2 << " is " << vvDp[str1.size()][str2.size()];
+
+	return 0;
+}

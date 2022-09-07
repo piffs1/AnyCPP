@@ -1,0 +1,76 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+vector<vector<int>> vnMap;
+
+const int WALL = -INT_MAX;
+
+///int vnMap[4][4] =
+///{
+///	/*vnMap[0]*/ {0,0,0,0},
+///	/*vnMap[1]*/ {0,0,0,0},
+///	/*vnMap[2]*/ {0,0,0,0},
+///	/*vnMap[3]*/ {0,0,0,0}
+///};
+
+int helper(int n, int m)
+{
+	if (n < 1 || m < 1) {
+		return 0;
+	}
+	if (n == 1 || m == 1) { /// Это начальная позиция. Поэтому она = 1
+		vnMap[n][m] = 1;
+		return 1;
+	}
+	if (vnMap[n][m] == WALL) {
+		return 0;
+	}
+	if (vnMap[n][m] != 0) {
+		return vnMap[n][m];
+	}
+	vnMap[n][m] = /*Вниз*/			helper(n - 1, m) + 
+				  /*Вправо*/		helper(n, m - 1) + 
+				  /*Вправо-вниз*/   helper(n - 1, m - 1);
+	return vnMap[n][m];
+}
+
+void SetWalls()
+{
+	///Функция чисто чтобы красиво было
+	vnMap[2][2] = WALL;
+	vnMap[2][3] = WALL;
+}
+
+int paths(int n, int m) /// n,m это куда
+{
+	vnMap.resize(n + 1);
+	for (int i = 0; i < vnMap.size(); i++) {
+		vnMap[i].resize(m + 1, 0);
+	}
+	vnMap[1][1] = 1; /// Можно и без этой строчки, просто отображается удобней
+	SetWalls();
+
+	return helper(n, m);
+}
+
+void Display()
+{
+	/// Display vnMap
+	for (int i = 1; i < vnMap.size(); i++) {
+		for (int x = 1; x < vnMap[i].size(); x++) {
+			if (vnMap[i][x] == WALL) cout << '*' << '\t';
+			else 
+			cout << vnMap[i][x] << '\t';
+		}
+		cout << endl;
+	}
+}
+
+int main()
+{
+	setlocale(0, "");
+	cout << "Путей из точки 1,1 в 5,5 = " << paths(5, 5) << endl;
+	Display();
+}
